@@ -29,6 +29,8 @@ public class Main {
             System.out.printf("%nIncome %.2f %s is taxed at %.1f%% rate.%n" +
                             "The sum of tax is %.2f %s.%n",
                     income, CURRENCY, taxRate3, taxSum, CURRENCY);
+        }else {
+            System.out.println("\nIncome is taxed at different rate.");
         }
     }
 }
