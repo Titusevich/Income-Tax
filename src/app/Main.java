@@ -19,6 +19,11 @@ public class Main {
             System.out.printf("%nIncome %.2f %s is taxed at %.1f%% rate.%n" +
                             "The sum of tax is %.2f %s.%n",
                     income, CURRENCY, taxRate1, taxSum, CURRENCY);
+        }else if (income > 10000 & income <= 25000) {
+            taxSum = (income * taxRate2) / 100;
+            System.out.printf("%nIncome %.2f %s is taxed at %.1f%% rate.%n" +
+                            "The sum of tax is %.2f %s.%n",
+                    income, CURRENCY, taxRate2, taxSum, CURRENCY);
         }
     }
 }
