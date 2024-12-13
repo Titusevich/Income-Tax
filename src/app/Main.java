@@ -7,4 +7,11 @@ public class Main {
     public static double taxRate3;
     private static final String CURRENCY = "UAH";
     public static double taxSum;
+
+    public static void main(String[] args) {
+        income = 15570.45;
+        taxRate1 = 2.5;
+        taxRate2 = 4.3;
+        taxRate3 = 6.7;
+    }
 }
