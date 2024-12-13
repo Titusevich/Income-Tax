@@ -13,5 +13,12 @@ public class Main {
         taxRate1 = 2.5;
         taxRate2 = 4.3;
         taxRate3 = 6.7;
+
+        if (income > 0 & income <= 10000) {
+            taxSum = (income * taxRate1) / 100;
+            System.out.printf("%nIncome %.2f %s is taxed at %.1f%% rate.%n" +
+                            "The sum of tax is %.2f %s.%n",
+                    income, CURRENCY, taxRate1, taxSum, CURRENCY);
+        }
     }
 }
